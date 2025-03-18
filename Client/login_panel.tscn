@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=3 uid="uid://cihog4bqihi3b"]
+
+[ext_resource type="Script" uid="uid://dh33bpnoky8fr" path="res://code/login_panel.gd" id="1_6a27a"]
+
+[node name="Login_Panel" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_6a27a")
+
+[node name="ConnectButton" type="Button" parent="."]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+text = "Connect"
+
+[connection signal="pressed" from="ConnectButton" to="." method="_on_connect_button_pressed"]

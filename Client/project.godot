@@ -11,5 +11,12 @@ config_version=5
 [application]
 
 config/name="School_Assignment_Client"
+run/main_scene="uid://cihog4bqihi3b"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+SharedRpc="*res://code/SharedRPC.gd"
+Save="*res://code/save/save.gd"
+Server="*res://code/server/Server.gd"

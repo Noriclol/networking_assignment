@@ -11,5 +11,6 @@ config_version=5
 [application]
 
 config/name="School_Assignment_Server"
+run/main_scene="uid://c02be6gclgicg"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
